@@ -1,0 +1,53 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# Logs
+*.log
+
+# Compiled binaries
+*.dll
+*.exe
+*.app
+*.out
+*.pdb
+
+# Publish output
+publish/
+wwwroot/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code settings
+.vscode/
+
+# Secrets and configs
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Databases
+*.dbmdl
+*.mdf
+*.ldf
+
+# Others
+*.cache
+*.bak
+*.tmp
+*.swp
